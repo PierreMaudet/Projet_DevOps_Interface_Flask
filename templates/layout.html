@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <title>PROJET</title>
+</head>
+<body>
+    <header class="welcome">
+        <h1>Projet mi-parcours DevOps</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="page_accueil"><a href="/accueil">Accueil</a></li>
+            <li class="page_comparaison"><a href="/comparaison">Comparaison</a></li>
+            <li class="page_synchronisation"><a href="/synchronisation">Synchronisation</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        {% block corps %}
+        {% endblock %}
+    </div>
+
+    <footer class="basdepage">
+        <div class="titre">
+            <p>Groupe projet :</p>
+        </div>
+        <p>Morgane Froment - Pierre Maudet - Chloé Cahuzac</p>
+    </footer>
+</body>
+</html>
